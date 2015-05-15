@@ -21,7 +21,7 @@ A::A()
 {
 }
 A::A(int age, char *p) 
-{
+{ 
 	pAge = age;
 	pName = new char[strlen(p) + 1];  //动态空间申请之后的赋值 
 	if (pName != NULL)
